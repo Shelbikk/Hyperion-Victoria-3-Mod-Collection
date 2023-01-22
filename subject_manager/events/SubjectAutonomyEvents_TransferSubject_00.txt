@@ -11,7 +11,11 @@ SM_subject_autonomy_event.transfer_subject = {
 	}
 
 	immediate = {
-		every_country = {
+		ordered_subject_or_below = {
+			order_by = gdp
+			check_range_bounds = no
+			max = 200
+
 			limit = { 
 				is_direct_subject_of = root
 				NOT = { 
@@ -24,7 +28,7 @@ SM_subject_autonomy_event.transfer_subject = {
 				target = this
 			}
 		}
-
+		
 		every_in_local_list = {
 			variable = SM_transfer_subject_candidates
 			
