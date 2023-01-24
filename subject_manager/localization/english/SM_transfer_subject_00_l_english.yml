@@ -1,7 +1,15 @@
 ﻿l_english:
- SM_subject_autonomy_event.transfer_subject.t:0 "Transfer subject"
- SM_subject_autonomy_event.transfer_subject.d:0 "Transfer a subject to [SCOPE.sCountry('SM_transfer_target').GetName]."
- SM_subject_autonomy_event.transfer_subject.f:0 "One caveat:\ The selection list can be empty as you can't transfer the subject to themself.\nIt's a good idea if you want to transfer a powerful subject country/subject with more subjects to save the game before as they might lose their subjects/become independent (especially if you transfer the subject to an urecognized country)."
+ SM_transfer_subject:0 "Transfer Subject"
+ SM_transfer_subject_desc:0 "Select a country to transfer your [concept_subject] to."
+ SM_transfer_subject_action_name:0 "$SM_transfer_subject$" 
+ SM_transfer_subject_action_notification_name:0 "New subject"
+ SM_transfer_subject_action_notification_desc:0 "[INITIATOR_COUNTRY.GetName] decided to transfer one of their subjects to us."
+ SM_transfer_subject_action_notification_third_party_name:0 "[INITIATOR_COUNTRY.GetName] transferred their subject" 
+ SM_transfer_subject_action_notification_third_party_desc:0 "[INITIATOR_COUNTRY.GetName] transferred one of their subjects."
+
+ SM_transfer_subject.1.t:0 "$SM_transfer_subject$"
+ SM_transfer_subject.1.d:0 "Transfer a subject to [SCOPE.sCountry('SM_transfer_target').GetName]."
+ SM_transfer_subject.1.f:0 "One caveat:\ The selection list can be empty as you can't transfer the subject to themself.\nIt's a good idea if you want to transfer a powerful subject country/subject with more subjects to save the game before as they might lose their subjects/become independent (especially if you transfer the subject to an urecognized country)."
 
  SM_subject_autonomy_event_transfer_text_0:0 "Transfer [SCOPE.sCountry('subject_autonomy_event_transfer_subject_0').GetName]" 
  SM_subject_autonomy_event_transfer_text_1:0 "Transfer [SCOPE.sCountry('subject_autonomy_event_transfer_subject_1').GetName]" 

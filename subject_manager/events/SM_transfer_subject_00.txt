@@ -1,10 +1,12 @@
-SM_subject_autonomy_event.transfer_subject = {
+﻿namespace = SM_transfer_subject
+
+SM_transfer_subject.1 = {
 	type = country_event
 	placement = ROOT
 
-    title = SM_subject_autonomy_event.transfer_subject.t
-    desc = SM_subject_autonomy_event.transfer_subject.d
-    flavor = SM_subject_autonomy_event.transfer_subject.f
+    title = SM_transfer_subject.1.t
+    desc = SM_transfer_subject.1.d
+    flavor = SM_transfer_subject.1.f
 
 	event_image = {
 		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
@@ -148,7 +150,7 @@ SM_subject_autonomy_event.transfer_subject = {
 	}
 	
 	option = {
-		name = "Cancel"
+		name = CANCEL
 		default_option = yes
 	}
 
