@@ -1,5 +1,7 @@
 .vscode
+
 testing*
+*.xcf
 
 .helper_scripts/**/outputs
 **/__pycache__
