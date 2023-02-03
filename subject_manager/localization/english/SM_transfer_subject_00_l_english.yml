@@ -1,5 +1,5 @@
 ﻿l_english:
- SM_transfer_subject:0 "Transfer Subject"
+ SM_transfer_subject:0 "SM: Transfer Subject"
  SM_transfer_subject_desc:0 "Select a country to transfer your [concept_subject] to."
  SM_transfer_subject_action_name:0 "$SM_transfer_subject$" 
  SM_transfer_subject_action_notification_name:0 "New subject"
