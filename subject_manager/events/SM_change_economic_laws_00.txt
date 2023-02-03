@@ -102,6 +102,11 @@ SM_change_economic_laws.2 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_traditionalism
 		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -113,6 +118,11 @@ SM_change_economic_laws.2 {
 		name = law_agrarianism
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_agrarianism
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -126,6 +136,11 @@ SM_change_economic_laws.2 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_command_economy
 		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -138,6 +153,11 @@ SM_change_economic_laws.2 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_laissez_faire
 		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -149,6 +169,11 @@ SM_change_economic_laws.2 {
 		name = law_interventionism
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_interventionism
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -182,6 +207,11 @@ SM_change_economic_laws.3 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_free_trade
 		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -193,6 +223,11 @@ SM_change_economic_laws.3 {
 		name = law_protectionism
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_protectionism
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -206,6 +241,11 @@ SM_change_economic_laws.3 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_isolationism
 		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -217,6 +257,11 @@ SM_change_economic_laws.3 {
 		name = law_mercantilism
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_mercantilism
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -250,6 +295,11 @@ SM_change_economic_laws.4 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_no_colonial_affairs
 		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -262,6 +312,11 @@ SM_change_economic_laws.4 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_colonial_resettlement
 		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -273,6 +328,11 @@ SM_change_economic_laws.4 {
 		name = law_colonial_exploitation
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_colonial_exploitation
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -306,6 +366,11 @@ SM_change_economic_laws.5 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_no_police
 		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -317,6 +382,11 @@ SM_change_economic_laws.5 {
 		name = law_local_police
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_local_police
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -330,6 +400,11 @@ SM_change_economic_laws.5 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_dedicated_police
 		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -341,6 +416,11 @@ SM_change_economic_laws.5 {
 		name = law_militarized_police
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_militarized_police
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -374,6 +454,11 @@ SM_change_economic_laws.6 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_no_schools
 		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -385,6 +470,11 @@ SM_change_economic_laws.6 {
 		name = law_religious_schools
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_religious_schools
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -398,6 +488,11 @@ SM_change_economic_laws.6 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_private_schools
 		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -409,6 +504,11 @@ SM_change_economic_laws.6 {
 		name = law_public_schools
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_public_schools
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -442,6 +542,11 @@ SM_change_economic_laws.7 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_no_health_system
 		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -453,6 +558,11 @@ SM_change_economic_laws.7 {
 		name = law_charitable_health_system
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_charitable_health_system
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -466,6 +576,11 @@ SM_change_economic_laws.7 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_private_health_insurance
 		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -477,6 +592,11 @@ SM_change_economic_laws.7 {
 		name = law_public_health_insurance
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_public_health_insurance
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 

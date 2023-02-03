@@ -111,6 +111,11 @@ SM_change_power_structure_laws.2 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_chiefdom
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -122,6 +127,11 @@ SM_change_power_structure_laws.2 {
 		name = law_monarchy
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_monarchy
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -135,6 +145,11 @@ SM_change_power_structure_laws.2 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_presidential_republic
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -146,6 +161,11 @@ SM_change_power_structure_laws.2 {
 		name = law_parliamentary_republic
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_parliamentary_republic
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -159,6 +179,11 @@ SM_change_power_structure_laws.2 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_theocracy
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -170,6 +195,11 @@ SM_change_power_structure_laws.2 {
 		name = law_council_republic
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_council_republic
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -203,6 +233,11 @@ SM_change_power_structure_laws.3 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_autocracy
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -214,6 +249,11 @@ SM_change_power_structure_laws.3 {
 		name = law_oligarchy
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_oligarchy
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -227,6 +267,11 @@ SM_change_power_structure_laws.3 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_landed_voting
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -238,6 +283,11 @@ SM_change_power_structure_laws.3 {
 		name = law_wealth_voting
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_wealth_voting
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -251,6 +301,11 @@ SM_change_power_structure_laws.3 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_census_voting
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -262,6 +317,11 @@ SM_change_power_structure_laws.3 {
 		name = law_universal_suffrage
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_universal_suffrage
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -275,6 +335,11 @@ SM_change_power_structure_laws.3 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_elder_council
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -286,6 +351,11 @@ SM_change_power_structure_laws.3 {
 		name = law_anarchy
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_anarchy
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -319,6 +389,11 @@ SM_change_power_structure_laws.4 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_ethnostate
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -330,6 +405,11 @@ SM_change_power_structure_laws.4 {
 		name = law_national_supremacy
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_national_supremacy
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -343,6 +423,11 @@ SM_change_power_structure_laws.4 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_racial_segregation
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -355,6 +440,11 @@ SM_change_power_structure_laws.4 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_cultural_exclusion
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -366,6 +456,11 @@ SM_change_power_structure_laws.4 {
 		name = law_multicultural
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_multicultural
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -399,6 +494,11 @@ SM_change_power_structure_laws.5 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_state_religion
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -411,6 +511,11 @@ SM_change_power_structure_laws.5 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_freedom_of_conscience
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -422,6 +527,11 @@ SM_change_power_structure_laws.5 {
 		name = law_total_separation
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_total_separation
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -455,6 +565,11 @@ SM_change_power_structure_laws.6 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_hereditary_bureaucrats
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -467,6 +582,11 @@ SM_change_power_structure_laws.6 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_appointed_bureaucrats
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -478,6 +598,11 @@ SM_change_power_structure_laws.6 {
 		name = law_elected_bureaucrats
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_elected_bureaucrats
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -511,6 +636,11 @@ SM_change_power_structure_laws.7 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_peasant_levies
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -522,6 +652,11 @@ SM_change_power_structure_laws.7 {
 		name = law_national_militia
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_national_militia
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -535,6 +670,11 @@ SM_change_power_structure_laws.7 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_mass_conscription
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -546,6 +686,11 @@ SM_change_power_structure_laws.7 {
 		name = law_professional_army
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_professional_army
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -579,6 +724,11 @@ SM_change_power_structure_laws.8 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_no_home_affairs
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -590,6 +740,11 @@ SM_change_power_structure_laws.8 {
 		name = law_national_guard
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_national_guard
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -603,6 +758,11 @@ SM_change_power_structure_laws.8 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_secret_police
 		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -614,6 +774,11 @@ SM_change_power_structure_laws.8 {
 		name = law_guaranteed_liberties
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_guaranteed_liberties
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 

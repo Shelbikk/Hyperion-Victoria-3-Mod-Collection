@@ -111,6 +111,11 @@ SM_change_human_rights_laws.2 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_outlawed_dissent
 		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -122,6 +127,11 @@ SM_change_human_rights_laws.2 {
 		name = law_censorship
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_censorship
+		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -135,6 +145,11 @@ SM_change_human_rights_laws.2 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_right_of_assembly
 		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -146,6 +161,11 @@ SM_change_human_rights_laws.2 {
 		name = law_protected_speech
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_protected_speech
+		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -179,6 +199,11 @@ SM_change_human_rights_laws.3 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_serfdom
 		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -190,6 +215,11 @@ SM_change_human_rights_laws.3 {
 		name = law_serfdom_banned
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_serfdom_banned
+		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -203,6 +233,11 @@ SM_change_human_rights_laws.3 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_regulatory_bodies
 		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -214,6 +249,11 @@ SM_change_human_rights_laws.3 {
 		name = law_worker_protections
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_worker_protections
+		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -247,6 +287,11 @@ SM_change_human_rights_laws.4 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_child_labor_allowed
 		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -259,6 +304,11 @@ SM_change_human_rights_laws.4 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_restricted_child_labor
 		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -270,6 +320,11 @@ SM_change_human_rights_laws.4 {
 		name = law_compulsory_primary_school
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_compulsory_primary_school
+		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -303,6 +358,11 @@ SM_change_human_rights_laws.5 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_no_womens_rights
 		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -314,6 +374,11 @@ SM_change_human_rights_laws.5 {
 		name = law_women_own_property
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_women_own_property
+		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -327,6 +392,11 @@ SM_change_human_rights_laws.5 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_women_in_the_workplace
 		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -338,6 +408,11 @@ SM_change_human_rights_laws.5 {
 		name = law_womens_suffrage
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_womens_suffrage
+		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -371,6 +446,11 @@ SM_change_human_rights_laws.6 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_no_social_security
 		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -382,6 +462,11 @@ SM_change_human_rights_laws.6 {
 		name = law_poor_laws
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_poor_laws
+		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -395,6 +480,11 @@ SM_change_human_rights_laws.6 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_wage_subsidies
 		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -406,6 +496,11 @@ SM_change_human_rights_laws.6 {
 		name = law_old_age_pension
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_old_age_pension
+		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -439,6 +534,11 @@ SM_change_human_rights_laws.7 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_no_migration_controls
 		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -451,6 +551,11 @@ SM_change_human_rights_laws.7 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_migration_controls
 		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -462,6 +567,11 @@ SM_change_human_rights_laws.7 {
 		name = law_closed_borders
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_closed_borders
+		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -495,6 +605,11 @@ SM_change_human_rights_laws.8 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_slavery_banned
 		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -506,6 +621,11 @@ SM_change_human_rights_laws.8 {
 		name = law_debt_slavery
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_debt_slavery
+		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 
@@ -519,6 +639,11 @@ SM_change_human_rights_laws.8 {
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_slave_trade
 		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
+		}
 	}
 
 	option = {
@@ -530,6 +655,11 @@ SM_change_human_rights_laws.8 {
 		name = law_legacy_slavery
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_legacy_slavery
+		}
+        trigger_event = {
+			id = SM_change_human_rights_laws.1
+			days = 0
+			popup = yes
 		}
 	}
 

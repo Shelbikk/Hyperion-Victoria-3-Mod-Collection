@@ -205,6 +205,11 @@ sub_event_option_template = """
 		scope:SM_change_laws_target = {{
 			activate_law = law_type:{law}
 		}}
+        trigger_event = {{
+			id = {namespace}.1
+			days = 0
+			popup = yes
+		}}
 	}}
 """
 
@@ -221,16 +226,21 @@ def main():
         for lawgroup, laws in lawgroups.items():
             options = ""
             for law in laws:
-                options += sub_event_option_template.format(law=law)
+                options += sub_event_option_template.format(
+                    law=law, namespace=namespace
+                )
 
             sub_choice_event = sub_choice_event_template.format(
-                lawgroup_index=lawgroup_index, lawgroup=lawgroup, options=options, namespace=namespace
+                lawgroup_index=lawgroup_index,
+                lawgroup=lawgroup,
+                options=options,
+                namespace=namespace,
             )
             sub_choice_events.append(sub_choice_event)
             choice_event_options += choice_event_option_template.format(
                 lawgroup_index=lawgroup_index, lawgroup=lawgroup, namespace=namespace
             )
-            
+
             lawgroup_index += 1
 
         choice_event = choice_event_template.format(
