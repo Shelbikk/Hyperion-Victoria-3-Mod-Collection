@@ -1,3 +1,5 @@
 .vscode
 testing*
+
 .helper_scripts/**/outputs
+**/__pycache__
