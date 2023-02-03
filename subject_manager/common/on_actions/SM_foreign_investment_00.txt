@@ -1,0 +1,11 @@
+﻿on_yearly_pulse_country = {
+	effect = {
+		if = {
+			limit = {
+				has_modifier = SM_block_industrial_expansion
+				is_subject = no
+			}
+			remove_modifier = SM_block_industrial_expansion
+		}
+	}
+}
