@@ -7,7 +7,7 @@ investment_periods = {
     "long": 10,
 }
 
-investment_intensities = {"low": 5, "medium": 20, "high": 100}
+investment_intensities = {"low": 5, "medium": 20, "high": 100, "very_high": 500}
 
 
 investment_option_template = """
