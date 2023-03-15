@@ -4,12 +4,12 @@ import os
 laws_categories = {
     "power_structure_laws": {
         "lawgroup_governance_principles": [
-            "law_chiefdom",
             "law_monarchy",
             "law_presidential_republic",
             "law_parliamentary_republic",
             "law_theocracy",
             "law_council_republic",
+            "law_chiefdom",
         ],
         "lawgroup_distribution_of_power": [
             "law_autocracy",
@@ -54,16 +54,24 @@ laws_categories = {
     "economic_laws": {
         "lawgroup_economic_system": [
             "law_traditionalism",
-            "law_agrarianism",
-            "law_command_economy",
-            "law_laissez_faire",
             "law_interventionism",
+            "law_agrarianism",
+            "law_laissez_faire",
+            "law_cooperative_ownership",
+            "law_command_economy",
         ],
         "lawgroup_trade_policy": [
             "law_free_trade",
             "law_protectionism",
             "law_isolationism",
             "law_mercantilism",
+        ],
+        "lawgroup_taxation": [
+            "law_consumption_based_taxation",
+            "law_land_based_taxation",
+            "law_per_capita_based_taxation",
+            "law_proportional_taxation",
+            "law_graduated_taxation",
         ],
         "lawgroup_colonization": [
             "law_no_colonial_affairs",
