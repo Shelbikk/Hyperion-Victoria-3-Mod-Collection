@@ -243,6 +243,23 @@ SM_change_power_structure_laws.3 {
 	option = {
 		trigger = {
 			scope:SM_change_laws_target = {
+				NOT = { has_law = law_type:law_technocracy }
+			}
+		}
+		name = law_technocracy
+		scope:SM_change_laws_target = {
+			activate_law = law_type:law_technocracy
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
+	}
+
+	option = {
+		trigger = {
+			scope:SM_change_laws_target = {
 				NOT = { has_law = law_type:law_oligarchy }
 			}
 		}
@@ -328,12 +345,12 @@ SM_change_power_structure_laws.3 {
 	option = {
 		trigger = {
 			scope:SM_change_laws_target = {
-				NOT = { has_law = law_type:law_elder_council }
+				NOT = { has_law = law_type:law_anarchy }
 			}
 		}
-		name = law_elder_council
+		name = law_anarchy
 		scope:SM_change_laws_target = {
-			activate_law = law_type:law_elder_council
+			activate_law = law_type:law_anarchy
 		}
         trigger_event = {
 			id = SM_change_power_structure_laws.1
@@ -345,12 +362,29 @@ SM_change_power_structure_laws.3 {
 	option = {
 		trigger = {
 			scope:SM_change_laws_target = {
-				NOT = { has_law = law_type:law_anarchy }
+				NOT = { has_law = law_type:law_single_party_state }
 			}
 		}
-		name = law_anarchy
+		name = law_single_party_state
 		scope:SM_change_laws_target = {
-			activate_law = law_type:law_anarchy
+			activate_law = law_type:law_single_party_state
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
+	}
+
+	option = {
+		trigger = {
+			scope:SM_change_laws_target = {
+				NOT = { has_law = law_type:law_elder_council }
+			}
+		}
+		name = law_elder_council
+		scope:SM_change_laws_target = {
+			activate_law = law_type:law_elder_council
 		}
         trigger_event = {
 			id = SM_change_power_structure_laws.1
@@ -527,6 +561,23 @@ SM_change_power_structure_laws.5 {
 		name = law_total_separation
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_total_separation
+		}
+        trigger_event = {
+			id = SM_change_power_structure_laws.1
+			days = 0
+			popup = yes
+		}
+	}
+
+	option = {
+		trigger = {
+			scope:SM_change_laws_target = {
+				NOT = { has_law = law_type:law_state_atheism }
+			}
+		}
+		name = law_state_atheism
+		scope:SM_change_laws_target = {
+			activate_law = law_type:law_state_atheism
 		}
         trigger_event = {
 			id = SM_change_power_structure_laws.1

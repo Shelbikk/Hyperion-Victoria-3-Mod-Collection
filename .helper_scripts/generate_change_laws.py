@@ -13,13 +13,15 @@ laws_categories = {
         ],
         "lawgroup_distribution_of_power": [
             "law_autocracy",
+            "law_technocracy",
             "law_oligarchy",
             "law_landed_voting",
             "law_wealth_voting",
             "law_census_voting",
             "law_universal_suffrage",
-            "law_elder_council",
             "law_anarchy",
+            "law_single_party_state",
+            "law_elder_council",
         ],
         "lawgroup_citizenship": [
             "law_ethnostate",
@@ -32,6 +34,7 @@ laws_categories = {
             "law_state_religion",
             "law_freedom_of_conscience",
             "law_total_separation",
+            "law_state_atheism",
         ],
         "lawgroup_bureaucracy": [
             "law_hereditary_bureaucrats",
@@ -56,6 +59,7 @@ laws_categories = {
             "law_traditionalism",
             "law_interventionism",
             "law_agrarianism",
+            "law_industry_banned",
             "law_laissez_faire",
             "law_cooperative_ownership",
             "law_command_economy",
@@ -72,6 +76,13 @@ laws_categories = {
             "law_per_capita_based_taxation",
             "law_proportional_taxation",
             "law_graduated_taxation",
+        ],
+        "lawgroup_land_reform": [
+            "law_serfdom",
+            "law_tenant_farmers",
+            "law_homesteading",
+            "law_commercialized_agriculture",
+            "law_collectivized_agriculture",
         ],
         "lawgroup_colonization": [
             "law_no_colonial_affairs",
@@ -105,8 +116,7 @@ laws_categories = {
             "law_protected_speech",
         ],
         "lawgroup_labor_rights": [
-            "law_serfdom",
-            "law_serfdom_banned",
+            "law_no_workers_rights",
             "law_regulatory_bodies",
             "law_worker_protections",
         ],

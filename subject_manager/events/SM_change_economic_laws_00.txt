@@ -47,7 +47,7 @@ SM_change_economic_laws.1 = {
 	}
 
 	option = {
-		name = lawgroup_colonization
+		name = lawgroup_land_reform
 		trigger_event = {
 			id = SM_change_economic_laws.5
 			days = 0
@@ -56,7 +56,7 @@ SM_change_economic_laws.1 = {
 	}
 
 	option = {
-		name = lawgroup_policing
+		name = lawgroup_colonization
 		trigger_event = {
 			id = SM_change_economic_laws.6
 			days = 0
@@ -65,7 +65,7 @@ SM_change_economic_laws.1 = {
 	}
 
 	option = {
-		name = lawgroup_education_system
+		name = lawgroup_policing
 		trigger_event = {
 			id = SM_change_economic_laws.7
 			days = 0
@@ -74,9 +74,18 @@ SM_change_economic_laws.1 = {
 	}
 
 	option = {
-		name = lawgroup_health_system
+		name = lawgroup_education_system
 		trigger_event = {
 			id = SM_change_economic_laws.8
+			days = 0
+			popup = yes
+		}
+	}
+
+	option = {
+		name = lawgroup_health_system
+		trigger_event = {
+			id = SM_change_economic_laws.9
 			days = 0
 			popup = yes
 		}
@@ -144,6 +153,23 @@ SM_change_economic_laws.2 {
 		name = law_agrarianism
 		scope:SM_change_laws_target = {
 			activate_law = law_type:law_agrarianism
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
+	}
+
+	option = {
+		trigger = {
+			scope:SM_change_laws_target = {
+				NOT = { has_law = law_type:law_industry_banned }
+			}
+		}
+		name = law_industry_banned
+		scope:SM_change_laws_target = {
+			activate_law = law_type:law_industry_banned
 		}
         trigger_event = {
 			id = SM_change_economic_laws.1
@@ -402,6 +428,111 @@ SM_change_economic_laws.5 {
 	type = country_event
 	placement = ROOT
 
+    title = lawgroup_land_reform
+    desc = lawgroup_land_reform
+    flavor = lawgroup_land_reform_desc
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+	
+	option = {
+		name = CANCEL
+		default_option = yes
+	}
+
+	
+	option = {
+		trigger = {
+			scope:SM_change_laws_target = {
+				NOT = { has_law = law_type:law_serfdom }
+			}
+		}
+		name = law_serfdom
+		scope:SM_change_laws_target = {
+			activate_law = law_type:law_serfdom
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
+	}
+
+	option = {
+		trigger = {
+			scope:SM_change_laws_target = {
+				NOT = { has_law = law_type:law_tenant_farmers }
+			}
+		}
+		name = law_tenant_farmers
+		scope:SM_change_laws_target = {
+			activate_law = law_type:law_tenant_farmers
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
+	}
+
+	option = {
+		trigger = {
+			scope:SM_change_laws_target = {
+				NOT = { has_law = law_type:law_homesteading }
+			}
+		}
+		name = law_homesteading
+		scope:SM_change_laws_target = {
+			activate_law = law_type:law_homesteading
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
+	}
+
+	option = {
+		trigger = {
+			scope:SM_change_laws_target = {
+				NOT = { has_law = law_type:law_commercialized_agriculture }
+			}
+		}
+		name = law_commercialized_agriculture
+		scope:SM_change_laws_target = {
+			activate_law = law_type:law_commercialized_agriculture
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
+	}
+
+	option = {
+		trigger = {
+			scope:SM_change_laws_target = {
+				NOT = { has_law = law_type:law_collectivized_agriculture }
+			}
+		}
+		name = law_collectivized_agriculture
+		scope:SM_change_laws_target = {
+			activate_law = law_type:law_collectivized_agriculture
+		}
+        trigger_event = {
+			id = SM_change_economic_laws.1
+			days = 0
+			popup = yes
+		}
+	}
+
+}
+
+SM_change_economic_laws.6 {
+	type = country_event
+	placement = ROOT
+
     title = lawgroup_colonization
     desc = lawgroup_colonization
     flavor = lawgroup_colonization_desc
@@ -469,7 +600,7 @@ SM_change_economic_laws.5 {
 
 }
 
-SM_change_economic_laws.6 {
+SM_change_economic_laws.7 {
 	type = country_event
 	placement = ROOT
 
@@ -557,7 +688,7 @@ SM_change_economic_laws.6 {
 
 }
 
-SM_change_economic_laws.7 {
+SM_change_economic_laws.8 {
 	type = country_event
 	placement = ROOT
 
@@ -645,7 +776,7 @@ SM_change_economic_laws.7 {
 
 }
 
-SM_change_economic_laws.8 {
+SM_change_economic_laws.9 {
 	type = country_event
 	placement = ROOT
 

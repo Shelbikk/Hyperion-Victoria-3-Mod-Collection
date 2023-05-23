@@ -192,29 +192,12 @@ SM_change_human_rights_laws.3 {
 	option = {
 		trigger = {
 			scope:SM_change_laws_target = {
-				NOT = { has_law = law_type:law_serfdom }
+				NOT = { has_law = law_type:law_no_workers_rights }
 			}
 		}
-		name = law_serfdom
+		name = law_no_workers_rights
 		scope:SM_change_laws_target = {
-			activate_law = law_type:law_serfdom
-		}
-        trigger_event = {
-			id = SM_change_human_rights_laws.1
-			days = 0
-			popup = yes
-		}
-	}
-
-	option = {
-		trigger = {
-			scope:SM_change_laws_target = {
-				NOT = { has_law = law_type:law_serfdom_banned }
-			}
-		}
-		name = law_serfdom_banned
-		scope:SM_change_laws_target = {
-			activate_law = law_type:law_serfdom_banned
+			activate_law = law_type:law_no_workers_rights
 		}
         trigger_event = {
 			id = SM_change_human_rights_laws.1
