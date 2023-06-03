@@ -1,4 +1,4 @@
-﻿
+
 namespace = SM_change_economic_laws
 
 SM_change_economic_laws.1 = {
@@ -12,6 +12,9 @@ SM_change_economic_laws.1 = {
 	event_image = {
 		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
 	}
+
+    minor_left_icon = root
+	minor_right_icon = scope:SM_change_laws_target
 
 	option = {
 		name = CANCEL
@@ -91,6 +94,16 @@ SM_change_economic_laws.1 = {
 		}
 	}
 
+
+    option = {
+        name = BACK
+        default_option = yes
+        trigger_event = {
+            id = SM_change_laws.1
+            days = 0
+            popup = yes
+        }
+	}
 }
 SM_change_economic_laws.2 {
 	type = country_event
@@ -104,6 +117,9 @@ SM_change_economic_laws.2 {
 		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
 	}
 	
+    minor_left_icon = root
+	minor_right_icon = scope:SM_change_laws_target
+
 	option = {
 		name = CANCEL
 		default_option = yes
@@ -121,7 +137,7 @@ SM_change_economic_laws.2 {
 			activate_law = law_type:law_traditionalism
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -138,7 +154,7 @@ SM_change_economic_laws.2 {
 			activate_law = law_type:law_interventionism
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -155,7 +171,7 @@ SM_change_economic_laws.2 {
 			activate_law = law_type:law_agrarianism
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -172,7 +188,7 @@ SM_change_economic_laws.2 {
 			activate_law = law_type:law_industry_banned
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -189,7 +205,7 @@ SM_change_economic_laws.2 {
 			activate_law = law_type:law_laissez_faire
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -206,7 +222,7 @@ SM_change_economic_laws.2 {
 			activate_law = law_type:law_cooperative_ownership
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -223,12 +239,22 @@ SM_change_economic_laws.2 {
 			activate_law = law_type:law_command_economy
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
 	}
 
+
+    option = {
+        name = BACK
+        default_option = yes
+        trigger_event = {
+            id = SM_change_economic_laws.1
+            days = 0
+            popup = yes
+        }
+	}
 }
 
 SM_change_economic_laws.3 {
@@ -243,6 +269,9 @@ SM_change_economic_laws.3 {
 		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
 	}
 	
+    minor_left_icon = root
+	minor_right_icon = scope:SM_change_laws_target
+
 	option = {
 		name = CANCEL
 		default_option = yes
@@ -260,7 +289,7 @@ SM_change_economic_laws.3 {
 			activate_law = law_type:law_free_trade
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -277,7 +306,7 @@ SM_change_economic_laws.3 {
 			activate_law = law_type:law_protectionism
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -294,7 +323,7 @@ SM_change_economic_laws.3 {
 			activate_law = law_type:law_isolationism
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -311,12 +340,22 @@ SM_change_economic_laws.3 {
 			activate_law = law_type:law_mercantilism
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
 	}
 
+
+    option = {
+        name = BACK
+        default_option = yes
+        trigger_event = {
+            id = SM_change_economic_laws.1
+            days = 0
+            popup = yes
+        }
+	}
 }
 
 SM_change_economic_laws.4 {
@@ -331,6 +370,9 @@ SM_change_economic_laws.4 {
 		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
 	}
 	
+    minor_left_icon = root
+	minor_right_icon = scope:SM_change_laws_target
+
 	option = {
 		name = CANCEL
 		default_option = yes
@@ -348,7 +390,7 @@ SM_change_economic_laws.4 {
 			activate_law = law_type:law_consumption_based_taxation
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -365,7 +407,7 @@ SM_change_economic_laws.4 {
 			activate_law = law_type:law_land_based_taxation
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -382,7 +424,7 @@ SM_change_economic_laws.4 {
 			activate_law = law_type:law_per_capita_based_taxation
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -399,7 +441,7 @@ SM_change_economic_laws.4 {
 			activate_law = law_type:law_proportional_taxation
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -416,12 +458,22 @@ SM_change_economic_laws.4 {
 			activate_law = law_type:law_graduated_taxation
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
 	}
 
+
+    option = {
+        name = BACK
+        default_option = yes
+        trigger_event = {
+            id = SM_change_economic_laws.1
+            days = 0
+            popup = yes
+        }
+	}
 }
 
 SM_change_economic_laws.5 {
@@ -436,6 +488,9 @@ SM_change_economic_laws.5 {
 		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
 	}
 	
+    minor_left_icon = root
+	minor_right_icon = scope:SM_change_laws_target
+
 	option = {
 		name = CANCEL
 		default_option = yes
@@ -453,7 +508,7 @@ SM_change_economic_laws.5 {
 			activate_law = law_type:law_serfdom
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -470,7 +525,7 @@ SM_change_economic_laws.5 {
 			activate_law = law_type:law_tenant_farmers
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -487,7 +542,7 @@ SM_change_economic_laws.5 {
 			activate_law = law_type:law_homesteading
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -504,7 +559,7 @@ SM_change_economic_laws.5 {
 			activate_law = law_type:law_commercialized_agriculture
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -521,12 +576,22 @@ SM_change_economic_laws.5 {
 			activate_law = law_type:law_collectivized_agriculture
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
 	}
 
+
+    option = {
+        name = BACK
+        default_option = yes
+        trigger_event = {
+            id = SM_change_economic_laws.1
+            days = 0
+            popup = yes
+        }
+	}
 }
 
 SM_change_economic_laws.6 {
@@ -541,6 +606,9 @@ SM_change_economic_laws.6 {
 		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
 	}
 	
+    minor_left_icon = root
+	minor_right_icon = scope:SM_change_laws_target
+
 	option = {
 		name = CANCEL
 		default_option = yes
@@ -558,7 +626,7 @@ SM_change_economic_laws.6 {
 			activate_law = law_type:law_no_colonial_affairs
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -575,7 +643,7 @@ SM_change_economic_laws.6 {
 			activate_law = law_type:law_colonial_resettlement
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -592,12 +660,22 @@ SM_change_economic_laws.6 {
 			activate_law = law_type:law_colonial_exploitation
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
 	}
 
+
+    option = {
+        name = BACK
+        default_option = yes
+        trigger_event = {
+            id = SM_change_economic_laws.1
+            days = 0
+            popup = yes
+        }
+	}
 }
 
 SM_change_economic_laws.7 {
@@ -612,6 +690,9 @@ SM_change_economic_laws.7 {
 		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
 	}
 	
+    minor_left_icon = root
+	minor_right_icon = scope:SM_change_laws_target
+
 	option = {
 		name = CANCEL
 		default_option = yes
@@ -629,7 +710,7 @@ SM_change_economic_laws.7 {
 			activate_law = law_type:law_no_police
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -646,7 +727,7 @@ SM_change_economic_laws.7 {
 			activate_law = law_type:law_local_police
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -663,7 +744,7 @@ SM_change_economic_laws.7 {
 			activate_law = law_type:law_dedicated_police
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -680,12 +761,22 @@ SM_change_economic_laws.7 {
 			activate_law = law_type:law_militarized_police
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
 	}
 
+
+    option = {
+        name = BACK
+        default_option = yes
+        trigger_event = {
+            id = SM_change_economic_laws.1
+            days = 0
+            popup = yes
+        }
+	}
 }
 
 SM_change_economic_laws.8 {
@@ -700,6 +791,9 @@ SM_change_economic_laws.8 {
 		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
 	}
 	
+    minor_left_icon = root
+	minor_right_icon = scope:SM_change_laws_target
+
 	option = {
 		name = CANCEL
 		default_option = yes
@@ -717,7 +811,7 @@ SM_change_economic_laws.8 {
 			activate_law = law_type:law_no_schools
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -734,7 +828,7 @@ SM_change_economic_laws.8 {
 			activate_law = law_type:law_religious_schools
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -751,7 +845,7 @@ SM_change_economic_laws.8 {
 			activate_law = law_type:law_private_schools
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -768,12 +862,22 @@ SM_change_economic_laws.8 {
 			activate_law = law_type:law_public_schools
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
 	}
 
+
+    option = {
+        name = BACK
+        default_option = yes
+        trigger_event = {
+            id = SM_change_economic_laws.1
+            days = 0
+            popup = yes
+        }
+	}
 }
 
 SM_change_economic_laws.9 {
@@ -788,6 +892,9 @@ SM_change_economic_laws.9 {
 		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
 	}
 	
+    minor_left_icon = root
+	minor_right_icon = scope:SM_change_laws_target
+
 	option = {
 		name = CANCEL
 		default_option = yes
@@ -805,7 +912,7 @@ SM_change_economic_laws.9 {
 			activate_law = law_type:law_no_health_system
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -822,7 +929,7 @@ SM_change_economic_laws.9 {
 			activate_law = law_type:law_charitable_health_system
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -839,7 +946,7 @@ SM_change_economic_laws.9 {
 			activate_law = law_type:law_private_health_insurance
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
@@ -856,10 +963,20 @@ SM_change_economic_laws.9 {
 			activate_law = law_type:law_public_health_insurance
 		}
         trigger_event = {
-			id = SM_change_economic_laws.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}
 	}
 
+
+    option = {
+        name = BACK
+        default_option = yes
+        trigger_event = {
+            id = SM_change_economic_laws.1
+            days = 0
+            popup = yes
+        }
+	}
 }

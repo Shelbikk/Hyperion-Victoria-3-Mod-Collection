@@ -172,12 +172,25 @@ namespace = {namespace}
 		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
 	}}
 
+    minor_left_icon = root
+	minor_right_icon = scope:SM_change_laws_target
+
 	option = {{
 		name = CANCEL
 		default_option = yes
 	}}
 
     {options}
+
+    option = {{
+        name = BACK
+        default_option = yes
+        trigger_event = {{
+            id = SM_change_laws.1
+            days = 0
+            popup = yes
+        }}
+	}}
 }}
 """
 choice_event_option_template = """
@@ -203,12 +216,25 @@ sub_choice_event_template = """{namespace}.{lawgroup_index} {{
 		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
 	}}
 	
+    minor_left_icon = root
+	minor_right_icon = scope:SM_change_laws_target
+
 	option = {{
 		name = CANCEL
 		default_option = yes
 	}}
 
 	{options}
+
+    option = {{
+        name = BACK
+        default_option = yes
+        trigger_event = {{
+            id = {namespace}.1
+            days = 0
+            popup = yes
+        }}
+	}}
 }}
 """
 
@@ -224,7 +250,7 @@ sub_event_option_template = """
 			activate_law = law_type:{law}
 		}}
         trigger_event = {{
-			id = {namespace}.1
+			id = SM_change_laws.1
 			days = 0
 			popup = yes
 		}}
@@ -265,7 +291,7 @@ def main():
             namespace=namespace, options=choice_event_options
         )
 
-        with open(os.path.join(output_path, f"{namespace}.txt"), "w") as f:
+        with open(os.path.join(output_path, f"{namespace}_00.txt"), "w") as f:
             f.write(choice_event)
             f.write("\n".join(sub_choice_events))
 
