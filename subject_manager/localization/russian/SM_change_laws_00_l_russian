@@ -1,0 +1,24 @@
+l_russian:
+ SM_change_subject_laws:0 "SM: Изменить законы субъекта"
+ SM_change_subject_laws_action_name:0 "$SM_change_subject_laws$"
+ SM_change_subject_laws_desc:0 "Изменить законы субъекта"
+ SM_change_subject_laws_action_notification_name:0 "Изменение законов"
+ SM_change_subject_laws_action_notification_desc:0 "Наш повелитель находится в процессе изменения наших законов."
+ SM_change_laws.1.t:0 "Изменить законы субъекта"
+ SM_change_laws.1.d:0 "Изменять законы в [SCOPE.sCountry('SM_change_laws_target').GetName]"
+ SM_change_laws.1.f:0 "Выберите группу законов, которую хотите изменить."
+
+ SM_change_subject_economic_laws:0 "SM: Изменить экономические законы"
+ SM_change_economic_laws.1.t:0 "Изменить экономические законы субъекта"
+ SM_change_economic_laws.1.d:0 "Изменить экономические законы [SCOPE.sCountry('SM_change_laws_target').GetName]"
+ SM_change_economic_laws.1.f:0 "Выберите группу законов, которую вы хотите изменить."
+
+ SM_change_subject_human_rights_laws:0 "SM: Изменить законы о правах человека"
+ SM_change_human_rights_laws.1.t:0 "Изменить законы о правах человека субъекта"
+ SM_change_human_rights_laws.1.d:0 "Изменить законы о правах человека [SCOPE.sCountry('SM_change_laws_target').GetName]"
+ SM_change_human_rights_laws.1.f:0 "Выберите группу законов, которую вы хотите изменить."
+
+ SM_change_subject_power_structure_laws:0 "SM: Изменить законы о структуре власти"
+ SM_change_power_structure_laws.1.t:0 "Изменить законы о структуре власти субъекта"
+ SM_change_power_structure_laws.1.d:0 "Изменить законы о структуре власти [SCOPE.sCountry('SM_change_laws_target').GetName]"
+ SM_change_power_structure_laws.1.f:0 "Выберите группу законов, которую вы хотите изменить."
