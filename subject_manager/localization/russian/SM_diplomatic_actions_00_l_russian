@@ -1,0 +1,18 @@
+l_russian:
+ SM_increase_autonomy:0 "SM: Повышение автономии"
+ SM_increase_autonomy_action_name:0 "SM: Повышение автономии"
+ SM_increase_autonomy_desc:0 "#header $increase_autonomy$#!\n$TOOLTIP_DELIMITER$\nAn [concept_instant_diplomatic_action] это увеличивает автономию [concept_subject]."
+ SM_increase_autonomy_action_notification_name:0 "Автономность повысилась"
+ SM_increase_autonomy_action_notification_desc:0 "Наша автономия была увеличена."
+ SM_increase_autonomy_action_notification_third_party_name:0 "[INITIATOR_COUNTRY.GetName] автономность повысилась"
+ SM_increase_autonomy_action_notification_third_party_desc:0 "[INITIATOR_COUNTRY.GetName] увеличена автономность [TARGET_COUNTRY.GetName]."
+
+ SM_decrease_autonomy:0 "SM: Снижение автономии"
+ SM_decrease_autonomy_action_name:0 "SM: Снижение автономии"
+ SM_decrease_autonomy_desc:0 "#header $decrease_autonomy$#!\n$TOOLTIP_DELIMITER$\nAn [concept_instant_diplomatic_action] это уменьшает автономию [concept_subject]."
+ SM_decrease_autonomy_action_notification_name:0 "Автономность снизилась"
+ SM_decrease_autonomy_action_notification_desc:0 "Наша автономия была уменьшена."
+ SM_decrease_autonomy_action_notification_third_party_name:0 "[INITIATOR_COUNTRY.GetName] автономность снизилась"
+ SM_decrease_autonomy_action_notification_third_party_desc:0 "[INITIATOR_COUNTRY.GetName] уменьшена автономность [TARGET_COUNTRY.GetName]."
+
+ vassal_effect_desc_third:0 "[TARGET_COUNTRY.GetName] становится [concept_vassal] [COUNTRY.GetName]"
